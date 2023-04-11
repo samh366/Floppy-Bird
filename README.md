@@ -7,6 +7,6 @@
  Keeps track of your high score.
 
  Fonts used:
- Title font - Hardpixel
- Score font - 04b
- Death/Info font - FFF Forward
+  + Title font - Hardpixel
+  + Score font - 04b
+  + Death/Info font - FFF Forward
