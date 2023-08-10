@@ -3,6 +3,8 @@ import pygame
 from classes.player import Player
 from classes.pipe import Pipe
 
+### Run to start Floppy Bird! ###
+
 class Game:
     def __init__(self):
         pygame.init()
@@ -11,6 +13,8 @@ class Game:
         self.width, self.height = self.res
         self.mid = self.width//2
         self.screen = pygame.display.set_mode(self.res)
+        icon = pygame.image.load("assets/icons/icon_128.png")
+        pygame.display.set_icon(icon)
         pygame.display.set_caption("Floppy Bird")
         pygame.display.flip()
         self.clock = pygame.time.Clock()
@@ -276,4 +280,3 @@ if __name__ == "__main__":
     game = Game()
 
     pygame.quit()
-    quit()
